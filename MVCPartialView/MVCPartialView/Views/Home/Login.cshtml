@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Login Information</h2>
+@Html.Partial("LoginPartialView")
+<div>
+    @Html.Label("Verification Number: ")
+    @Html.TextBox("VerificationNumber","")
+</div>
+
